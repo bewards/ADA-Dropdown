@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ADA-Dropdown Demo</title>
+</head>
+
+<body>
+    <form action="">
+        <div class="cb">
+            <div class="cb_label"></div>
+            <label id="cb1_label" for="cb1_edit">State</label>
+            <input type="text" aria-owns="cb1_list" class="cb_edit" id="cb1_edit" aria-readonly="true" aria-labeledby="cb1_label" role="combobox" />
+
+            <div id="cb1_button_label" class="sr-only">Open list of states</div>
+            <button id="cb1_button" class="cb_button" aria-labeledby="cb1_button_label" aria-controls="cb1_list" tabindex="-1"></button>
+
+            <ul id="cb1_list" class="cb_list" role="listbox" aria-expanded="true" tab-index="-1">
+                <li id="cb1_opt1" role="option" tab-index="-1" class="cb_option">State 1</li>
+                <li id="cb1_opt2" role="option" tab-index="-1" class="cb_option">State 2</li>
+                <li id="cb1_opt3" role="option" tab-index="-1" class="cb_option">State 3</li>
+                <li id="cb1_opt4" role="option" tab-index="-1" class="cb_option">State 4</li>
+                <li id="cb1_opt5" role="option" tab-index="-1" class="cb_option">State 5</li>
+                <li id="cb1_opt6" role="option" tab-index="-1" class="cb_option">State 6</li>
+                <li id="cb1_opt7" role="option" tab-index="-1" class="cb_option">State 7</li>
+                <li id="cb1_opt8" role="option" tab-index="-1" class="cb_option">State 8</li>
+                <li id="cb1_opt9" role="option" tab-index="-1" class="cb_option">State 9</li>
+                <li id="cb1_opt10" role="option" tab-index="-1" class="cb_option">State 10</li>
+            </ul>
+        </div>
+    </form>
+</body>
+
+</html>
